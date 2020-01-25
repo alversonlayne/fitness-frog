@@ -50,12 +50,14 @@ namespace Treehouse.FitnessFrog.Controllers
             Entry.IntensityLevel? intensity, 
             bool? exclude, string notes)
         {            
-            ViewBag.Date = ModelState["Date"].Value.AttemptedValue;
-            ViewBag.ActivityId = ModelState["ActivityId"].Value.AttemptedValue;
-            ViewBag.Duration = ModelState["Duration"].Value.AttemptedValue;
-            ViewBag.Intensity = ModelState["Intensity"].Value.AttemptedValue;
-            ViewBag.Exclude = ModelState["Exclude"].Value.AttemptedValue;
-            ViewBag.Notes = ModelState["Notes"].Value.AttemptedValue;
+            //ViewBag.Date = ModelState["Date"].Value.AttemptedValue;
+            //ViewBag.ActivityId = ModelState["ActivityId"].Value.AttemptedValue;
+            //ViewBag.Duration = ModelState["Duration"].Value.AttemptedValue;
+            //ViewBag.Intensity = ModelState["Intensity"].Value.AttemptedValue;
+            //ViewBag.Exclude = ModelState["Exclude"].Value.AttemptedValue;
+            //ViewBag.Notes = ModelState["Notes"].Value.AttemptedValue;
+            
+            //*****This commented out code is only necessary without HTML Helper Methods in the Add.cshtml view
 
             return View();
         }
